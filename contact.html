@@ -8,63 +8,62 @@
 </head>
 <body>
     <div id="top-container" class="row">
-    
         <div id="logo" class="col-lg-4 col-md-4 col-sm-12">
-        <img src="images/BMW_2020.png" style="height:90px">
+            <img src="images/BMW_2020.png" style="height:90px">
         </div>
-        
         <div id="menu" class="col-lg-8 col-md-8 col-sm-12">
             <div class="col-lg-3 col-md-3 col-sm-12 menusub">
-            <a href="index.html">HOME</a>
+                <a href="index.html">HOME</a>
             </div>
-    
             <div class="col-lg-3 col-md-3 col-sm-12 menusub">
-            <a href="about_me.html">ABOUT ME</a>
+                <a href="about_me.html">ABOUT ME</a>
             </div>
-    
             <div class="col-lg-3 col-md-3 col-sm-12 menusub">
-            <a href="portfolio.html">PORTFOLIO</a>
+                <a href="portfolio.html">PORTFOLIO</a>
             </div>
-    
             <div class="col-lg-3 col-md-3 col-sm-12 menusub">
-            <a href="contact.html">CONTACT ME</a>
-            </div>
-        </div>
-    
-    </div>
-    
-    <div class="bg">
-
-        <div id="contact-content" class="row">
-            <div class="col-lg-12">
-                <h1>Contact Me</h1>
-                <form>
-                    <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message:</label>
-                        <textarea class="form-control" id="message" rows="4" placeholder="Your message"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
+                <a href="contact.html">CONTACT ME</a>
             </div>
         </div>
     </div>
 
-       <!-- BOOTSTRAP CALL-->
-       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-       <!-- FINISHED -->
+    <div id="contact-content" class="row justify-content-center">
+        <!-- Added a container with white background -->
+        <div class="col-lg-6 col-md-8 col-sm-12 contact-form-container">
+            <h1 class="text-center">Contact Me</h1>
+            <form action="https://formsubmit.co/xaganisl@gmail.com" method="post">
+                <input type="hidden" name="_next" value="https://joyful-dasik-594d4a.netlify.app/email.html">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your message" name="message" required></textarea>
+                    
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- BOOTSTRAP CALL -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- FINISHED -->
     
-       <div id="footer" class="row footer">
-        <h3>© KHAGANI 2025</h3>
-    </div>  
+    <!-- Footer -->
+    <div id="footer" class="text-center mt-5">
+        <p>&copy; by Khagani. All Rights Reserved.</p>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
 </body>
 </html>
+
